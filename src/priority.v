@@ -11,6 +11,7 @@ module tt_um_priority_decoder_Juan_Garcial(
 	    input  wire       rst_n     // reset_n - low to reset 
 );
 
+	
 
  assign data_in = ui_in;
  assign uo_out[2:0] = data_out;
